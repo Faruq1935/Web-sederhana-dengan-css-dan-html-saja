@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* style */
+
+ body {
+   font: 16px/28px arial, sans-serif;
+   background-image: url(img/wheat.png);
+   color: #333;
+ }
+ 
+ .container {
+   width: 960px;
+   margin: 80px auto;
+   background-color: lightskyblue;
+   position: relative;
+   
+ }
+ .header {
+   padding: 20px;
+ }
+ .header .judul {
+   font-size: 50px;
+   font-weight: bold;
+ }
+ .header ul li {
+   display: inline-block;
+   margin-top: 29px;
+   margin-right: 15px;
+ }
+ .header a {
+   text-decoration: none;
+   color: salmon;
+   padding: 3px;
+   font-size: 20px;
+ }
+ 
+ .header a:hover {
+   background-color: orange;
+   color: white;
+ }
+ 
+ .hero {
+   height: 320px;
+   background-image: url(img/hero.jpeg);
+   background-size: cover;
+   background-position: 0 -208px;
+   border-top: 5px solid #7a34eb;
+   border-bottom: 5px solid #7a34eb;
+ }
+ 
+ 
+ .main {
+   width: 600px;
+   padding: 20px;
+   box-sizing: border-box;
+   float: left;
+}
+
+ .main h2 {
+   font-size: 18px;
+   font-weight: bold;
+ }
+ 
+  .main .penulis {
+   font-size: 11px;
+   margin-top: -5px;
+}
+
+ .main .penulis a {
+   color: salmon;
+   text-decoration: none;
+ }
+ 
+ .main p {
+   margin-bottom: 20px;
+   font-size: 14px;
+   font-family: sans-serif;
+   color: #2A2E37;
+ }
+ /* sidebar */
+ .sidebar {
+   width: 300px;
+   float: right;
+   padding: 20px;
+ }
+ .sidebar h3 {
+   font-weight: bold;
+   color: grey;
+ } 
+ .sidebar img {
+   width: 70px;
+   height: 70px;
+   float: left;
+   padding-right: 9px;
+ }
+ .sidebar ul li {
+   font: 12px/18px sans-serif;
+   color: grey;
+ }
+ 
+ 
+ 
+ 
+ .footer {
+   background-color: #333;
+   padding: 5px;
+   border-top: 5px solid #7a34eb;
+ }
+ .footer .copy {
+   color: #eaeaea;
+   font-size: 10px;
+   text-align: center;
+ }
+ /* clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
